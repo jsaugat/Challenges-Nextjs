@@ -1,5 +1,6 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
 import HeroSection from "@/components/HeroSection";
+import TestimonialCards from "@/components/TestimonialCards";
 import Image from "next/image";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between antialiased bg-grid-white/[0.02]">
       <HeroSection />
       <FeaturedCourses />
+      <TestimonialCards />
     </main>
   );
 }
